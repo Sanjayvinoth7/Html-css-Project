@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(183,65,65,1) 50%, rgba(252,176,69,1) 100%);
+  }
+
+  .container {
+    text-align: center;
+    padding: 20px;
+    
+    
+  }
+  .container h2{
+    color: white;
+  }
+
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+
+  .box {
+   
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+ width: 400px;
+ overflow: hidden;
+
+  }
+
+  .box img {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    width: 400px;
+  }
+
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .order-button {
+    background-color: #7b7b7aab;
+    color: black;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+</style>
+<title>ORDER</title>
+</head>
+<body>
+  <div class="container">
+    <h2 class="heading">Order Now</h2>
+    <div class="boxes">
+      <div class="box">
+        <img src="img4.jpg" alt="Image 1">
+        <h1>BURGER</h1>
+        <p>Lorem Ipsum has been the
+            industry's standard dummy text</p>
+      </div>
+      <div class="box">
+        <img src="img2.jpg" alt="Image 2">
+        <h1>PIZZA</h1>
+        <p>Lorem Ipsum has been the
+            industry's standard dummy text</p>
+      </div>
+      <div class="box">
+        <img src="img3.jpg" alt="Image 3">
+        <h1>PASTA</h1>
+        <p>Lorem Ipsum has been the
+            industry's standard dummy text</p>
+      </div>
+    </div>
+    <div class="button-container">
+      <button class="order-button">Order Now</button>
+    </div>
+  </div>
+</body>
+</html>

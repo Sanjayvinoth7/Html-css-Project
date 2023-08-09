@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    background-color:white;
+    color: black;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-center a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 20px;
+    position: absolute;
+    padding: 20px 0;
+    top:0px;
+    right: 10px;
+    
+}
+
+.icon {
+    margin: 0 5px;
+}
+
+.icon img {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('background image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content {
+    width: 500px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background-color: rgba(175, 63, 153, 0.712) ;
+    margin-right: 500px;
+  }
+
+
+
+  .bottom-bar {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(183,65,65,1) 50%, rgba(252,176,69,1) 100%);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+
+
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .box {
+    width: calc(33.33% - 20px);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+  .box img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .order-button {
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
